@@ -104,7 +104,7 @@ const educationInfo = {
       duration: "2022 - 2026",
       desc: "Specialization in Embedded Control & Power Systems.",
       descBullets: [
-        "Current CGPA: 7.54",
+
         "Key Coursework: Linear Integrated Circuits, Microcontroller Architecture, Transmission & Distribution, Digital Signal Processing."
       ]
     },
