@@ -20,101 +20,73 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Haridoss P",
+  title: "Haridoss P",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Electrical & Electronics Engineer. Bridging the gap between High-Voltage Power Systems and Low-Level Embedded Firmware. Specialized in Industrial IoT, Grid Telemetry, and Real-Time Control Systems."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Insert your Google Drive link here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Haridoss2004",
+  linkedin: "https://www.linkedin.com/in/haridoss2004",
+  gmail: "jacobisraelemmanuel@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "", 
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Core Competencies",
+  subTitle: "HARDWARE-SOFTWARE CO-DESIGN | POWER SYSTEMS ANALYSIS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Embedded Engineering: Bare-metal C/C++, Register-level Programming, ISR Handling, and Memory Optimization."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Communication Protocols: Implementation of I2C, SPI, UART, and MQTT for sensor fusion and telemetry."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Power Electronics: Smart Grid integration, Battery Management Systems (BMS), and Power Quality Analysis."
+    ),
+    emoji("⚡ System Design: Mixed-Signal PCB Design (KiCad), 3D Prototyping (Fusion 360), and Control Loop Tuning.")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Embedded C/C++",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python (Scripting/AI)",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "MATLAB & Simulink",
+      fontAwesomeClassname: "fas fa-chart-line" 
+    },
+    {
+      skillName: "KiCad (PCB Design)",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "Industrial IoT",
+      fontAwesomeClassname: "fas fa-wifi"
+    },
+    {
+      skillName: "Database Management",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Fusion 360 (CAD)",
+      fontAwesomeClassname: "fas fa-cube"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +98,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Thiagarajar College of Engineering, Madurai",
+      logo: require("./assets/images/harvardLogo.png"), // Replace with TCE Logo
+      subHeader: "B.E. (Electrical and Electronics Engineering)",
+      duration: "2022 - 2026",
+      desc: "Specialization in Embedded Control & Power Systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Current CGPA: 7.54",
+        "Key Coursework: Linear Integrated Circuits, Microcontroller Architecture, Transmission & Distribution, Digital Signal Processing."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "St. Joseph's Higher Secondary School, Cuddalore",
+      logo: require("./assets/images/sjc.png"), // Replace with School Logo
+      subHeader: "HSC (State Board)",
+      duration: "Completed 2022",
+      desc: "Focus: Mathematics, Physics, Chemistry. (86%)"
+    },
+    {
+      schoolName: "St. Joseph's Higher Secondary School, Cuddalore",
+      logo: require("./assets/images/sjc.png"), // Replace with School Logo
+      subHeader: "SSLC (State Board)",
+      duration: "Completed 2020",
+      desc: "Academic Excellence with 93% score. Strong foundation in Mathematics and General Sciences."
     }
   ]
 };
@@ -153,16 +131,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Embedded Firmware & Architecture", 
+      progressPercentage: "90%" 
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Smart Grid & Power Electronics",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "AI Integration & Data Analytics",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +152,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Engineering Intern",
+      company: "National Institute of Technology, Tiruchirappalli (Dept. of EEE)",
+      companylogo: require("./assets/images/facebookLogo.png"), // Replace with NIT Logo
+      date: "June 2024 – June 2024",
+      desc: "Designed and prototyped a 4G LTE-enabled Smart Energy Meter for remote grid infrastructure.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Engineered secure serial communication between MCU and 4G LTE Modems for real-time telemetry.",
+        "Implemented precise Voltage/Current sensing logic with outlier detection for load profiling.",
+        "Deployed Edge-AI models (XGBoost) to detect power theft patterns and transmission anomalies locally."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -212,29 +177,50 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Engineering Projects",
+  subtitle: "DEPLOYABLE SYSTEMS FOR ENERGY, ROBOTICS, AND HEALTHCARE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/marl.webp"), // Replace with V2X Image
+      projectName: "MARL-Based V2X Energy Optimization",
+      projectDesc: "Developed a Grid-to-Vehicle (V2G) energy exchange system. Implemented Multi-Agent Reinforcement Learning (MARL) algorithms to optimize load balancing between EVs and the Grid, utilizing Master-Slave architecture (RPi & ESP32).",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View System Architecture",
+          url: "https://github.com/Haridoss2004"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.webp"), // Replace with Arm Image
+      projectName: "Computer Vision Electromagnetic Arm",
+      projectDesc: "Built an industrial sorting robotic arm. Integrated OpenCV for object material classification and implemented PWM-based servo control loops for precise actuation of a 12V electromagnetic end-effector.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Firmware",
+          url: "https://github.com/Haridoss2004"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smart.png"), // Replace with Watch Image
+      projectName: "Low-Power Bio-Wearable",
+      projectDesc: "Designed a health monitoring embedded system on the RP2040 chip. Engineered I2C driver implementation for MAX30100 (SpO2/HR) sensors and optimized power consumption for battery-operated usage.",
+      footerLink: [
+        {
+          name: "View Codebase",
+          url: "https://github.com/Haridoss2004"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pedia.png"), // Replace with Medical Device Image
+      projectName: "Pediatric Optical Diagnostic Device",
+      projectDesc: "Engineered a low-cost medical imaging device. handled the complete product lifecycle from CAD modeling (Fusion 360) and 3D printing to Python-based image acquisition software. Validated by Aravind Eye Hospital.",
+      footerLink: [
+        {
+          name: "View Prototype",
+          url: "https://github.com/Haridoss2004"
         }
       ]
     }
@@ -246,56 +232,51 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Validation & Recognition"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Awards for Engineering Feasibility and Innovation",
 
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
+     {
+      title: "Agro 360 International Hackathon",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Secured 2nd Prize (International Level) with a cash award of ₹30,000. Recognized for scalable agricultural technology solutions.",
+      image: require("./assets/images/agro.png"), // Replace with Agro 360 Logo
+      imageAlt: "Agro 360 Logo",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "L&T Ideation Challenge 2025",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Top 5 National Finalist (1000+ Teams). Recognized for scalability in V2X energy solutions. Invited for R&D collaboration.",
+      image: require("./assets/images/lt.png"), // Replace with L&T Logo
+      imageAlt: "L&T Logo",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Design Patent (Indian Patent Office)",
+      subtitle:
+        "Intellectual Property filed for 'Kaleidoscope-based Eye Examination Device'. Validated for novelty and industrial applicability.",
+      image: require("./assets/images/ip.png"), // Replace with Patent Logo
+      imageAlt: "Patent Logo",
+      footerLink: []
+    },
+    {
+      title: "Hackathon Victories",
+      subtitle: "Secured 3rd Prize at AIEH 2025 (₹20k) and 1st Prize at Play with IoT (AICTE) for rapid prototyping excellence.",
+      image: require("./assets/images/AES.webp"), // Replace with Trophy/Medal Logo
+      imageAlt: "Award Logo",
+      footerLink: []
+    },
+    {
+      title: "Technical Outreach",
+      subtitle: "Founder of HD TECHNO. Producing technical documentation and video tutorials on Circuit Theory and IoT deployments (3K+ Views).",
+      image: require("./assets/images/ut.webp"), // Replace with YouTube Logo
+      imageAlt: "YouTube Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+         {
+          name: "View Tutorials",
+          url: "https://www.youtube.com/@Haridoss2004" 
         }
       ]
     }
@@ -306,22 +287,22 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Technical Publications",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Research Papers and Conference Proceedings",
+  displayMediumBlogs: "false", 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "#", 
+      title: "AI-Enhanced Smart Meter System",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Paper presented at IEI Madurai. Analyzes the application of Gradient Boosting (XGBoost) for anomaly detection in smart grid infrastructure."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "#",
+      title: "Future with Wireless Electricity",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Poster Presentation on Inductive Coupling and Resonant Energy Transfer. National Science Day, TCE."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -330,60 +311,46 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Talks",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    ""
   ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  talks: [], 
+  display: false 
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  podcast: [],
+  display: false 
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "View Full Engineering Portfolio",
+  display: true 
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Available for R&D and Engineering Roles in Embedded Systems and Power Electronics.",
+  number: "+91 7603965707",
+  email_address: "jacobisraelemmanuel@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "twitter", 
+  display: false 
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; 
 
 export {
   illustration,
