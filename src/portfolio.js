@@ -112,14 +112,14 @@ const educationInfo = {
       logo: require("./assets/images/sjc.png"), // Replace with School Logo
       subHeader: "HSC (State Board)",
       duration: "Completed 2022",
-      desc: "Focus: Mathematics, Physics, Chemistry. (86%)"
+      desc: "Focus: Mathematics, Physics, Chemistry,Biology"
     },
     {
       schoolName: "St. Joseph's Higher Secondary School, Cuddalore",
       logo: require("./assets/images/sjc.png"), // Replace with School Logo
       subHeader: "SSLC (State Board)",
       duration: "Completed 2020",
-      desc: "Academic Excellence with 93% score. Strong foundation in Mathematics and General Sciences."
+      desc: "Strong foundation in Mathematics and General Sciences."
     }
   ]
 };
