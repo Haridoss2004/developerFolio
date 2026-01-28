@@ -112,7 +112,7 @@ const educationInfo = {
       logo: require("./assets/images/sjc.png"), // Replace with School Logo
       subHeader: "HSC (State Board)",
       duration: "Completed 2022",
-      desc: "Focus: Mathematics, Physics, Chemistry,Biology"
+      desc: "Focus: Mathematics, Physics, Chemistry, Biology."
     },
     {
       schoolName: "St. Joseph's Higher Secondary School, Cuddalore",
