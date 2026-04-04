@@ -37,7 +37,7 @@ const socialMediaLinks = {
   gmail: "jacobisraelemmanuel@gmail.com",
   gitlab: "",
   facebook: "",
-  medium: "", 
+  medium: "",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -52,11 +52,15 @@ const skillsSection = {
     emoji(
       "⚡ Embedded Engineering: Bare-metal C/C++, Register-level Programming, ISR Handling, and Memory Optimization."
     ),
-    emoji("⚡ Communication Protocols: Implementation of I2C, SPI, UART, and MQTT for sensor fusion and telemetry."),
+    emoji(
+      "⚡ Communication Protocols: Implementation of I2C, SPI, UART, and MQTT for sensor fusion and telemetry."
+    ),
     emoji(
       "⚡ Power Electronics: Smart Grid integration, Battery Management Systems (BMS), and Power Quality Analysis."
     ),
-    emoji("⚡ System Design: Mixed-Signal PCB Design (KiCad), 3D Prototyping (Fusion 360), and Control Loop Tuning.")
+    emoji(
+      "⚡ System Design: Mixed-Signal PCB Design (KiCad), 3D Prototyping (Fusion 360), and Control Loop Tuning."
+    )
   ],
 
   softwareSkills: [
@@ -70,7 +74,7 @@ const skillsSection = {
     },
     {
       skillName: "MATLAB & Simulink",
-      fontAwesomeClassname: "fas fa-chart-line" 
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
       skillName: "KiCad (PCB Design)",
@@ -130,8 +134,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Embedded Firmware & Architecture", 
-      progressPercentage: "90%" 
+      Stack: "Embedded Firmware & Architecture",
+      progressPercentage: "90%"
     },
     {
       Stack: "Smart Grid & Power Electronics",
@@ -152,9 +156,10 @@ const workExperiences = {
   experience: [
     {
       role: "Engineering Intern",
-      company: "National Institute of Technology, Tiruchirappalli (Dept. of EEE)",
+      company:
+        "National Institute of Technology, Tiruchirappalli (Dept. of EEE)",
       companylogo: require("./assets/images/facebookLogo.png"), // Replace with NIT Logo
-      date: "June 2024 – June 2024",
+      date: "June 2024 – July 2024",
       desc: "Designed and prototyped a 4G LTE-enabled Smart Energy Meter for remote grid infrastructure.",
       descBullets: [
         "Engineered secure serial communication between MCU and 4G LTE Modems for real-time telemetry.",
@@ -182,7 +187,8 @@ const bigProjects = {
     {
       image: require("./assets/images/marl.webp"), // Replace with V2X Image
       projectName: "MARL-Based V2X Energy Optimization",
-      projectDesc: "Developed a Grid-to-Vehicle (V2G) energy exchange system. Implemented Multi-Agent Reinforcement Learning (MARL) algorithms to optimize load balancing between EVs and the Grid, utilizing Master-Slave architecture (RPi & ESP32).",
+      projectDesc:
+        "Developed a Grid-to-Vehicle (V2G) energy exchange system. Implemented Multi-Agent Reinforcement Learning (MARL) algorithms to optimize load balancing between EVs and the Grid, utilizing Master-Slave architecture (RPi & ESP32).",
       footerLink: [
         {
           name: "View System Architecture",
@@ -193,7 +199,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"), // Replace with Arm Image
       projectName: "Computer Vision Electromagnetic Arm",
-      projectDesc: "Built an industrial sorting robotic arm. Integrated OpenCV for object material classification and implemented PWM-based servo control loops for precise actuation of a 12V electromagnetic end-effector.",
+      projectDesc:
+        "Built an industrial sorting robotic arm. Integrated OpenCV for object material classification and implemented PWM-based servo control loops for precise actuation of a 12V electromagnetic end-effector.",
       footerLink: [
         {
           name: "View Firmware",
@@ -204,7 +211,8 @@ const bigProjects = {
     {
       image: require("./assets/images/smart.png"), // Replace with Watch Image
       projectName: "Low-Power Bio-Wearable",
-      projectDesc: "Designed a health monitoring embedded system on the RP2040 chip. Engineered I2C driver implementation for MAX30100 (SpO2/HR) sensors and optimized power consumption for battery-operated usage.",
+      projectDesc:
+        "Designed a health monitoring embedded system on the RP2040 chip. Engineered I2C driver implementation for MAX30100 (SpO2/HR) sensors and optimized power consumption for battery-operated usage.",
       footerLink: [
         {
           name: "View Codebase",
@@ -215,7 +223,8 @@ const bigProjects = {
     {
       image: require("./assets/images/pedia.png"), // Replace with Medical Device Image
       projectName: "Pediatric Optical Diagnostic Device",
-      projectDesc: "Engineered a low-cost medical imaging device. handled the complete product lifecycle from CAD modeling (Fusion 360) and 3D printing to Python-based image acquisition software. Validated by Aravind Eye Hospital.",
+      projectDesc:
+        "Engineered a low-cost medical imaging device. handled the complete product lifecycle from CAD modeling (Fusion 360) and 3D printing to Python-based image acquisition software. Validated by Aravind Eye Hospital.",
       footerLink: [
         {
           name: "View Prototype",
@@ -232,11 +241,10 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Validation & Recognition"),
-  subtitle:
-    "Awards for Engineering Feasibility and Innovation",
+  subtitle: "Awards for Engineering Feasibility and Innovation",
 
   achievementsCards: [
-     {
+    {
       title: "Agro 360 International Hackathon",
       subtitle:
         "Secured 2nd Prize (International Level) with a cash award of ₹30,000. Recognized for scalable agricultural technology solutions.",
@@ -262,20 +270,22 @@ const achievementSection = {
     },
     {
       title: "Hackathon Victories",
-      subtitle: "Secured 3rd Prize at AIEH 2025 (₹20k) and 1st Prize at Play with IoT (AICTE) for rapid prototyping excellence.",
+      subtitle:
+        "Secured 3rd Prize at AIEH 2025 (₹20k) and 1st Prize at Play with IoT (AICTE) for rapid prototyping excellence.",
       image: require("./assets/images/AES.webp"), // Replace with Trophy/Medal Logo
       imageAlt: "Award Logo",
       footerLink: []
     },
     {
       title: "Technical Outreach",
-      subtitle: "Founder of HD TECHNO. Producing technical documentation and video tutorials on Circuit Theory and IoT deployments (3K+ Views).",
+      subtitle:
+        "Founder of HD TECHNO. Producing technical documentation and video tutorials on Circuit Theory and IoT deployments (3K+ Views).",
       image: require("./assets/images/ut.webp"), // Replace with YouTube Logo
       imageAlt: "YouTube Logo",
       footerLink: [
-         {
+        {
           name: "View Tutorials",
-          url: "https://www.youtube.com/@Haridoss2004" 
+          url: "https://www.youtube.com/@Haridoss2004"
         }
       ]
     }
@@ -287,12 +297,11 @@ const achievementSection = {
 
 const blogSection = {
   title: "Technical Publications",
-  subtitle:
-    "Research Papers and Conference Proceedings",
-  displayMediumBlogs: "false", 
+  subtitle: "Research Papers and Conference Proceedings",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "#", 
+      url: "#",
       title: "AI-Enhanced Smart Meter System",
       description:
         "Paper presented at IEI Madurai. Analyzes the application of Gradient Boosting (XGBoost) for anomaly detection in smart grid infrastructure."
@@ -311,11 +320,9 @@ const blogSection = {
 
 const talkSection = {
   title: "Talks",
-  subtitle: emoji(
-    ""
-  ),
-  talks: [], 
-  display: false 
+  subtitle: emoji(""),
+  talks: [],
+  display: false
 };
 
 // Podcast Section
@@ -324,14 +331,14 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "",
   podcast: [],
-  display: false 
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "View Full Engineering Portfolio",
-  display: true 
+  display: true
 };
 
 const contactInfo = {
@@ -345,11 +352,11 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", 
-  display: false 
+  userName: "twitter",
+  display: false
 };
 
-const isHireable = true; 
+const isHireable = true;
 
 export {
   illustration,
